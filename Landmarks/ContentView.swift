@@ -12,9 +12,6 @@ struct ContentView: View {
     // and describes the view’s content and layout.
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             VStack(alignment: .leading) {
                 Text("Turtle Rock")
                     .font(.title)
