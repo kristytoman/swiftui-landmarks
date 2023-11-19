@@ -13,7 +13,7 @@ struct LandmarkDetail: View {
             MapView()
                 .frame(height: 300)
             
-            CircleImage()
+            CircleImage(image: landmarks[7].image)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
