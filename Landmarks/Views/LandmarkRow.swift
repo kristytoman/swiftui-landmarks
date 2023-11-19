@@ -28,3 +28,11 @@ struct LandmarkRow: View {
 #Preview("Salmon") {
     LandmarkRow(landmark: landmarks[1])
 }
+
+#Preview("Grouped preview") {
+    Group {
+        LandmarkRow(landmark: landmarks[2])
+        LandmarkRow(landmark: landmarks[3])
+
+    }
+}
