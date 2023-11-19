@@ -10,7 +10,7 @@ import SwiftUI
 struct LandmarkDetail: View {
     var body: some View {
         VStack {
-            MapView()
+            MapView(coordinates: landmarks[10].locationCoordinates)
                 .frame(height: 300)
             
             CircleImage(image: landmarks[7].image)
